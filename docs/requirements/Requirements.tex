@@ -40,8 +40,8 @@
         Outlining the Requirements for a Design Submission to the \\NASA/CSA Deep Space Food Challenge
 
         \vfill
-        \input{../tex/Namecard.tex}
-        \vspace{.75cm}
+        \input{../tex/documentation/Namecard.tex}
+        \vspace{1.25cm}
 
         Revision 1.0\\
         PeaPod Technologies Inc.\\
@@ -65,22 +65,10 @@ The purpose of this document is to outline both the \textit{categorical} require
 
 The goal of the DSFC is for participants to "Create novel food production technologies or systems that require \uline{minimal inputs} and \uline{maximize safe, nutritious, and palatable food outputs} for \uline{long-duration space missions}, and which have potential to benefit people on Earth." \cite{applicantguide}
 
-\subsection{Framing Structure}
+\subsection{Design Paradigm}
 \label{sec:structure}
 
-This document achieves its purpose via "top-down" framing (Section \ref{sec:framing}), with each subsection's entries being derived from the entries of the
-previous\footnote{Each objective and metric has a numbered reference to the entry it was derived from (\uline{\textbf{S}}takeholder \uline{\textbf{1}} : S1, \uline{\textbf{H}}igh-\uline{\textbf{L}}evel Objective \uline{\textbf{8}} : HL8, etc.)}.
-
-\begin{itemize}
-    \item \textbf{\ref{sec:opportunity} - Opportunity}: A succinct scoped design statement.
-    \item \textbf{\ref{sec:requirements} - Challenge Requirements}: Categorical requirements for \textit{any} DSFC submission.
-    \item \textbf{\ref{sec:stakeholders} - Stakeholders}: Persons and groups in consideration.
-    \item \textbf{\ref{sec:hlos} - High-Level Objectives (HLOs)}: Conceptual aims/"DfX" derived from Requirements and Stakeholders.
-    \item \textbf{\ref{sec:llos} - Low-Level Objectives (LLOs)}: Tactical, practical goals derived from HLOs.
-    \item \textbf{\ref{sec:metrics} - Metrics}: Granular, quantitative measures of design success, fit, utility, etc. derived from LLOs.
-    \item \textbf{\ref{sec:constraints} - Constraints}: \textit{Mandatory} requirements, minimums, and maximums (i.e. true/false, pass/fail) of metrics for the proposed design.
-    \item \textbf{\ref{sec:criteria} - Criteria}: \textit{Graded} (i.e. points-based, more/less is better) metrics for the proposed design.
-\end{itemize} 
+\input{../../../../docs/tex/documentation/DesignParadigm.tex}
 
 \clearpage
 \subsection{Scope and Justification}
@@ -94,7 +82,7 @@ The three underlined criteria in the challenge statement in Section \ref{sec:pur
         \begin{enumerate}[label=SC3\alph*., ref=SC3\alph*]
             \item \label{sc:3a} provides of all necessary \uline{plant growth inputs} (water, nutrients, lighting, etc.);
             \item \label{sc:3b} contains or otherwise encompasses a viable \uline{plant growth environment} (temperature, humidity, gas concentrations, airflow, etc.);
-            \item \label{sc:3c} has control over all of both a) and b), collectively referred to as the \uline{environment parameters}, producing suitable \uline{environment conditions}.
+        \item \label{sc:3c} has control over all of both a) and b), collectively referred to as the \uline{environment parameters}, producing suitable \uline{environment conditions}.
         \end{enumerate}
     \item \label{sc:4} To maximize safety (of both plants and the crew) and redundancy, and to minimize inputs (required human interaction), the environment should be \uline{automated and isolated} from the spacecraft cabin with regards to all environment conditions (thermal insulation, water-tight, etc.) unless beneficial and efficient (i.e. no loss).
 \clearpage
@@ -133,7 +121,7 @@ A number of useful definitions have emerged from the above scoping:
 \subsection{Opportunity}
 \label{sec:opportunity}
 
-Design an automated and isolated aeroponic plant growth system for the Deep Space Food Challenge \cite{dsfc}, able to generate any environment conditions from a combination of independent environment parameters, with both environment and plant growth metric data collection.
+Design an automated and isolated aeroponic plant growth system for the Deep Space Food Challenge \cite{dsfc}, able to generate any environment from a combination of independent environment parameters, with both environment and plant growth metric data collection.
 
 \subsection{Challenge Requirements}
 \label{sec:requirements}
@@ -213,6 +201,7 @@ The following are the overall challenge requirements compiled from DSFC Applican
 \end{multicols}
 
 \clearpage
+
 \subsection{Metrics}
 \label{sec:metrics}
 
@@ -391,6 +380,14 @@ The following are the overall challenge requirements compiled from DSFC Applican
 \clearpage
 
 \section{Reference Designs}
+
+% -------- TEMPLATE --------
+% Introduction - Project goal, scope, differences from this project
+% Graphics - Design drawings/photos, etc.
+% Analysis - Rank the design across each of our metrics
+    % TODO: Metrics might be too much, maybe just qualitative analysis based on LLOs?
+
+\subsection{Open Agriculture Initiative - Personal Food Computer}
 
 \input{tex/referencedesigns/OpenAG_PFC.tex}
 

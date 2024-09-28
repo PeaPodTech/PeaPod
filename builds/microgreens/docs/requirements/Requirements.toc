@@ -1,0 +1,17 @@
+\babel@toc {american}{}\relax 
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Purpose}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Design Paradigm}{2}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Scope and Justification}{4}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Definitions}{4}{subsection.1.4}%
+\contentsline {section}{\numberline {2}Framing}{5}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Problem Statement}{5}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Solution Requirements}{5}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Stakeholders and Values}{5}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Problem-Solving Goals}{6}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Solution Objectives}{6}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Metrics}{7}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Constraints}{8}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}Criteria}{8}{subsection.2.8}%
+\contentsline {section}{\numberline {3}Reference Designs}{9}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Reference Design XYZ}{9}{subsection.3.1}%
